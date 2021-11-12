@@ -1,0 +1,33 @@
+:root {
+      --mainColor: rgb( 23 108 61 );
+      --shadowColor: rgb( 0 0 0 / 25% );
+      --hoverColor: rgb( 23 108 61 / 95% );
+}
+
+* {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+}
+
+html {
+      font-family: sans-serif;
+}
+
+body {
+      background: rgb(65, 65, 65);
+      font-size: 18px;
+}
+
+h2 {
+      display: block;
+}
+.shadowoverlay {
+      z-index: 90;
+      position: fixed;
+      top: 0;
+      width: 100vw;
+      height: 100vh;
+      opacity: .7;
+      background-color: rgba( 0, 0, 0 );
+}
