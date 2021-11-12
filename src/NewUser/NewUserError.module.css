@@ -1,0 +1,8 @@
+h2 {
+      background-color: var( --mainColor );
+      padding: 25px;
+      color: white;
+}
+p {
+      padding: 25px;
+}
