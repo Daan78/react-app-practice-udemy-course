@@ -1,0 +1,28 @@
+.btn {
+      position: relative;
+      display: inline-block;
+      padding: 9px 15px 8px;
+      font-weight: 700;
+      border: none;
+      border-radius: 4px;
+      margin-top: 5px;
+      cursor: pointer;
+      font-family: sans-serif;
+      font-size: 18px;
+}
+
+.btn-green {
+      background: var( --mainColor );
+      color: white;
+      transition: all .2s ease-in-out;
+}
+.btn-green:hover, .btn-green__overlay:hover {
+      background: var( --hoverColor );
+}
+.btn-green__overlay {
+      background: var( --mainColor );
+      color: white;
+      display: block;
+      margin: 25px 25px 25px auto;
+      transition: all .2s ease-in-out;
+}

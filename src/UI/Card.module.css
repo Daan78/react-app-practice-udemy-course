@@ -1,0 +1,15 @@
+.card {
+      position: relative;
+      display: block;
+      border-radius: 12px;
+      box-shadow: 0 1px 8px var( --shadowColor );
+      padding: 25px 25px;
+      margin-top: 30px;
+      background: white;
+}
+
+.card.overlay {
+      margin-top: 0;
+      padding: 0;
+      overflow: hidden;
+}
